@@ -1,0 +1,17 @@
+# Data files - large, downloaded separately (see README)
+data/*.json
+data/*.json.gz
+data/*.csv
+data/*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Environment variables (API keys!)
+.env

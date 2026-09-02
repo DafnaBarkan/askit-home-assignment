@@ -1,19 +1,17 @@
 # AskIt Research Lab: Home Assignment 
 
 ## Dataset
-ModCloth/RentTheRunway Clothing Fit Dataset (Misra, Wan & McAuley, RecSys 2018).
-Public, no login wall, review_date confirms pre-2018 collection (pre-LLM).
-Caveat: population skews toward self-identified women's clothing shoppers.
+RentTheRunway Clothing Fit Dataset (Misra, Wan & McAuley, RecSys 2018).
+Downloaded from https://cseweb.ucsd.edu/~jmcauley/datasets.html#clothing_fit.
 
-## Audiences
-Attribute axes: 
+## Time log
+- Part 1 + Data search: 3h
+- Part 2: 2h
+- Part 3:
 
-Dev:
+## References
+- Honnibal, M., Montani, I., Van Landeghem, S., & Boyd, A. (2020). spaCy: Industrial-strength Natural Language Processing in Python. https://doi.org/10.5281/zenodo.1212303
+- Hutto, C. J., & Gilbert, E. (2014). VADER: A parsimonious rule-based model for sentiment analysis of social media text. *Proceedings of the International AAAI Conference on Web and Social Media*, 8(1), 216–225.
+- Koppel, M., Argamon, S., & Shimoni, A. R. (2002). Automatically categorizing written texts by author gender. *Literary and Linguistic Computing*, 17(4), 401–412.
+- Pennebaker, J. W., & Stone, L. D. (2003). Words of wisdom: Language use over the life span. *Journal of Personality and Social Psychology*, 85(2), 291–301.
 
-Held-out (untouched until final eval):
-
-## Elicitation contexts
-1. In-domain: "Describe a clothing item you bought recently."
-2. Out-of-domain: "Tell a friend about your weekend."
-
-## Metric

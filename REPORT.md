@@ -53,7 +53,7 @@ Both computed once on real reviews and once on generated personas (test).
 
 
 ## Part 2: Fast research
-
+Final audience members: A = 3,837 · B = 3,837 · C = 234 · D = 234 — 8,142 distinct users, zero shared.
 ## Part 3: Slow research
 
 # Another week plan

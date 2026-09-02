@@ -2,7 +2,10 @@
 
 ## Dataset and Seperation to Audiences
 __RentTheRunway Clothing Fit Dataset:__ Public dataset of clothing reviews from a women's online fashion retailer (Misra, Wan & McAuley, RecSys 2018). Downloaded from cseweb.ucsd.edu/~jmcauley/datasets.html#clothing_fit.
-Pre-AI reviews (dataset published 2018, review dates pre-2018) — no LLM-generated contamination risk.
+* Pre-AI reviews (dataset published 2018, review dates pre-2018) — no LLM-generated contamination risk.
+* Age is self-reported per reviewer, but reviews may describe gift purchases (e.g. an older customer reviewing an item bought for a daughter) — reflecting the recipient's style, not the reviewer's own. May cause a validity problem.
+
+
 __Fields used for audience separation:__ age (self-reported, numeric), rating (2–10, even values only).
 __Data field:__ review_text (free text).
 __Filtering:__ age restricted to 10–80 (raw data included implausible values 0–117); minimum 10 words per review. 180,091 of 191,584 age-complete records retained.
@@ -47,6 +50,7 @@ Between-audience separation: how different audience averages are from each other
 Both computed once on real reviews and once on generated personas (test).
 
 *A perfect score on this metric (completely seperated audiences) would still miss whether the model was able to capture a persona type or subgroups within the audience.*
+
 
 ## Part 2: Fast research
 

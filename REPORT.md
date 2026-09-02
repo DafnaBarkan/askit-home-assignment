@@ -54,10 +54,22 @@ Both computed once on real reviews and once on generated personas (test).
 
 ## Part 2: Fast research
 Final audience members: A = 3,837 · B = 3,837 · C = 234 · D = 234 — 8,142 distinct users, zero shared.
+
+### A and B
+__cases with no scoreable pronouns/verbs:__ After dropping cases with no scoreable pronouns/verbs, n=3,332 (A) and n=3,513 (B).
+__Axis descriptives:__
+- Positivity — A mean: 0.820, B mean: 0.857. Predicted A higher. Result: inverted, B is higher.
+- Self-other — A mean: 0.576, B mean: 0.596. Predicted: A lower (more other-reference). Result: matches.
+- Tense — A mean: 0.962, B mean: 0.976. Predicted: A lower (more future-tense). Result: matches.
+
+Between-audience (PERMANOVA): R² = 0.0035, F = 23.76, p = 0.001.
+Within-audience (betadisper): A mean distance to centroid = 0.319, B mean distance to centroid = 0.271.
+
+
 ## Part 3: Slow research
 
 # Another week plan
-MORE RESEARCH!
-Better data.
-
+- MORE RESEARCH! on semntic differences between people, and text generation process.
+- Find data that is better suited for the task.
+- Actually build the model and improve it.
 

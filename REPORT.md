@@ -68,6 +68,9 @@ Within-audience (betadisper): A mean distance to centroid = 0.319, B mean distan
 
 ## Part 3: Slow research
 
+*Disclaimer: This suggestion is a result of further thinking about the problem after the 5 hours limitation.*
+We are trying here to model how different audiences, and personas within an audience, respond to a given question. Meaning, we are basically trying to capture their cognitive state (how they think and behave). Here we are trying to do so using text alone. However, adding physiological measurements within the same context (online review writing) could help the model represent these personas more accurately. This connects to a research field called ‘psychophysiology’, that studies how mental processes interact with physiological systems. This can be measured through methods like EEG (electroencephalography) or HRV (heart rate variability). 
+
 # Another week plan
 - MORE RESEARCH! on semntic differences between people, and text generation process.
 - Find data that is better suited for the task.

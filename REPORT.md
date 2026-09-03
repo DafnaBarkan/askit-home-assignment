@@ -73,13 +73,8 @@ Within-audience (betadisper): A mean distance to centroid = 0.319, B mean distan
 We are trying here to model how different audiences, and personas within an audience, respond to a given question. Meaning, we are basically trying to capture their cognitive state (how they think and behave). Here we are trying to do so using text alone. However, adding physiological measurements within the same context (online review writing) could help the model represent these personas more accurately. This connects to a research field called ‘psychophysiology’, that studies how mental processes interact with physiological systems. This can be measured through methods like EEG (electroencephalography) or HRV (heart rate variability). 
 
 # Another week plan
-- MORE RESEARCH! on semntic differences between people, and text generation process.
-- Find data that is better suited for the task.
-- Actually build the model and improve it.
-
-
 - I would do more research on semantic differences and lenguage generation. With more research and deeper understanding I could design metrics better suited to the data (the positivity axis moved in the opposite direction then expected).
 
 - I would choose a different dataset that is better suited to the task. Rating and age distributions weren't evenly balanced across all audiences (negative-sentiment reviews are especially rare). With another week I would choose a dataset, or combine a few, that has more distinct audiences.
 
-- And obviestly, I would build and improve the actual model. I didn't reach part of the assignment, the generation of the function itself and testing it.
+- And obviously, I would build and improve the actual model. I didn't reach part of the assignment, the generation of the function itself and testing it.
